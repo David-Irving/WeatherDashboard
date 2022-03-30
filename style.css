@@ -3,9 +3,26 @@
     box-sizing: border-box;
 }
 
+.jumbotron{
+        background-color: rgba(0,0,0, 0.35); 
+        color: #ffc048;
+}
+
+.forecast{
+    background-color: rgba(0,0,0, 0.35); 
+    color: #ffc048;
+}
+
+.searchArea{
+    background-color: rgba(0,0,0, 0.35);
+}
+
 body {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./Images/background.jpeg);
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 h3{
@@ -20,8 +37,67 @@ span{
     font-size: 1em;
 }
 
-li:hover{
-    background-color: lightslategray;
+
+.btn1 {
+    margin: auto;
+    border: 2px solid #4bcffa;
+    width: 10em;
+    height: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:#95a5a6;
+    font-size: 25px;
+    transition-property: border;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    margin: auto;
+    border: 2px solid #4bcffa;
+    width: 10em;
+    height: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:#95a5a6;
+    font-size: 25px;
+    transition-property: border;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffc048;
+}
+
+#clear-history {
+        text-decoration: none;
+        color: #ffc048;
+}
+
+.btn1:hover{
+border-width: 5px;
+background-color: transparent;
+text-shadow: none;
+}
+
+#clear-history:hover{
+    border-width: 5px;
+    background-color: transparent;
+    text-shadow: none;
+    color: blue;
     text-decoration: underline;
 }
 
+.bg-text {
+background-color: rgba(0,0,0, 0.35); 
+color: black;
+}
