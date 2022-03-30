@@ -46,4 +46,4 @@
 * https://github.com/David-Irving/WeatherDashboard
 
 ### Website Preview
-![Website Preview](https://github.com/David-Irving/Portfolio/blob/main/Images/WeatherDashboard.png)
+![Website Preview](https://github.com/David-Irving/WeatherDashboard/blob/main/Images/WeatherDashboard.png)
